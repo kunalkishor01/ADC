@@ -1,0 +1,21 @@
+
+
+* {
+	box-sizing: auto
+        
+    ;
+}
+
+.column {
+	float: left;
+	width: 20%;
+	padding:px;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+    
+}
+
